@@ -126,7 +126,7 @@ function App() {
   );
 
   return (
-    <div className="min-h-screen bg-transparent text-slate-800">
+    <div className="min-h-screen overflow-x-hidden bg-transparent text-slate-900">
       <Navbar />
       <main>
         <Hero />
@@ -138,7 +138,7 @@ function App() {
         <Academics />
         <Contact />
       </main>
-      <footer className="border-t border-violet-200 bg-slate-900 px-4 py-8 text-center text-sm text-slate-300">
+      <footer className="border-t border-violet-200 bg-slate-900 px-4 py-8 text-center text-sm text-slate-200">
         <p>© {new Date().getFullYear()} Navinkumar M</p>
       </footer>
     </div>

@@ -3,7 +3,7 @@ import SectionHeading from "../components/SectionHeading";
 
 function Certifications({ items }) {
   return (
-    <section id="certifications" className="bg-[#f2ecfb] px-4 py-16 md:px-6 md:py-24">
+    <section id="certifications" className="scroll-mt-24 bg-[#f2ecfb] px-4 py-16 md:scroll-mt-28 md:px-6 md:py-24">
       <div className="mx-auto w-full max-w-6xl">
         <SectionHeading title="Certifications" subtitle="Credentials" />
         <motion.ul
@@ -16,7 +16,7 @@ function Certifications({ items }) {
           {items.map((certification) => (
             <li
               key={certification}
-              className="rounded-xl border border-violet-200 bg-white p-5 text-slate-700 shadow-md shadow-violet-100/70"
+              className="rounded-xl border border-violet-200 bg-white p-5 text-slate-900 shadow-md shadow-violet-100/70"
             >
               {certification}
             </li>

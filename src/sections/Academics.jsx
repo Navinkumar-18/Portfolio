@@ -24,7 +24,7 @@ const academicItems = [
 
 function Academics() {
   return (
-    <section id="academics" className="bg-[#eaf0fb] px-4 py-16 md:px-6 md:py-24">
+    <section id="academics" className="scroll-mt-24 bg-[#eaf0fb] px-4 py-16 md:scroll-mt-28 md:px-6 md:py-24">
       <div className="mx-auto w-full max-w-6xl">
         <SectionHeading title="Academic Background" subtitle="Education" />
         <motion.div
@@ -39,14 +39,14 @@ function Academics() {
               key={item.degree}
               className="rounded-2xl border border-violet-200 bg-white p-6 shadow-md shadow-violet-100/70 md:p-7"
             >
-              <div className="mb-3 flex flex-wrap items-start justify-between gap-3">
-                <h3 className="text-xl font-semibold text-slate-800">{item.degree}</h3>
+              <div className="mb-3 flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
+                <h3 className="text-xl font-semibold text-slate-900">{item.degree}</h3>
                 <span className="rounded-full bg-gradient-to-r from-violet-600 to-fuchsia-500 px-4 py-1 text-sm font-semibold text-white">
                   {item.timeline}
                 </span>
               </div>
-              <p className="text-base font-medium text-cyan-700">{item.institution}</p>
-              <p className="mt-2 text-slate-600">{item.details}</p>
+              <p className="text-base font-medium text-slate-900">{item.institution}</p>
+              <p className="mt-2 text-slate-700">{item.details}</p>
             </article>
           ))}
         </motion.div>

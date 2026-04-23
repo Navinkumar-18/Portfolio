@@ -4,7 +4,7 @@ import SectionHeading from "../components/SectionHeading";
 
 function Projects({ projects }) {
   return (
-    <section id="projects" className="bg-[#f7f2df] px-4 py-16 md:px-6 md:py-24">
+    <section id="projects" className="scroll-mt-24 bg-[#f7f2df] px-4 py-16 md:scroll-mt-28 md:px-6 md:py-24">
       <div className="mx-auto w-full max-w-6xl">
         <SectionHeading title="Projects" subtitle="Selected Work" />
         <motion.div

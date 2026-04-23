@@ -7,13 +7,13 @@ function Hero() {
       id="home"
       className="relative overflow-hidden bg-gradient-to-r from-[#2a2ca8] via-[#343cae] to-[#4a3bb2] px-4 pb-16 pt-24 md:px-6 md:pb-24 md:pt-28"
     >
-      <div className="mx-auto grid w-full max-w-6xl items-center gap-12 lg:grid-cols-2">
-        <div className="flex flex-col items-start">
+      <div className="mx-auto grid w-full max-w-6xl items-center gap-10 lg:grid-cols-2 lg:gap-12">
+        <div className="flex flex-col items-start text-left">
           <motion.p
             initial={{ opacity: 0, y: 18 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.45 }}
-            className="mb-4 rounded-full border border-violet-300/40 bg-white/10 px-4 py-1 text-sm font-medium text-violet-100"
+            className="mb-4 rounded-full border border-violet-300/40 bg-white/10 px-4 py-1 text-sm font-medium text-violet-50"
           >
             Full Stack Enthusiast | Aspiring App Developer | AI Explorer
           </motion.p>
@@ -30,7 +30,7 @@ function Hero() {
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.55, delay: 0.15 }}
-            className="max-w-3xl text-base leading-relaxed text-violet-100 md:text-lg"
+            className="max-w-3xl text-base leading-relaxed text-violet-50 md:text-lg"
           >
             I build scalable web and mobile applications using modern technologies like React, Node.js, and Flutter,
             with a growing focus on AI-driven systems.
@@ -71,7 +71,7 @@ function Hero() {
           <img
             src={profileImage}
             alt="Navinkumar profile"
-            className="h-64 w-64 rounded-full object-cover object-[50%_26%] md:h-80 md:w-80"
+            className="h-56 w-56 rounded-full object-cover object-[50%_26%] sm:h-64 sm:w-64 md:h-80 md:w-80"
           />
         </motion.div>
       </div>

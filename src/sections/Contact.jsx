@@ -32,7 +32,7 @@ function Contact() {
   ];
 
   return (
-    <section id="contact" className="bg-[#fceff5] px-4 py-16 md:px-6 md:py-24">
+    <section id="contact" className="scroll-mt-24 bg-[#fceff5] px-4 py-16 md:scroll-mt-28 md:px-6 md:py-24">
       <div className="mx-auto w-full max-w-6xl">
         <SectionHeading title="Contact" subtitle="Let Us Connect" />
         <motion.div
@@ -61,8 +61,8 @@ function Contact() {
                   >
                     <Icon className={item.iconClass} />
                   </a>
-                  <p className="mt-4 text-sm font-semibold text-slate-800">{item.label}</p>
-                  <p className="mt-1 break-words text-sm text-slate-600">{item.detail}</p>
+                  <p className="mt-4 text-sm font-semibold text-slate-900">{item.label}</p>
+                  <p className="mt-1 break-words text-sm text-slate-700">{item.detail}</p>
                 </div>
               );
             })}

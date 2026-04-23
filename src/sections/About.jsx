@@ -3,7 +3,7 @@ import SectionHeading from "../components/SectionHeading";
 
 function About() {
   return (
-    <section id="about" className="bg-[#eef1f8] px-4 py-16 md:px-6 md:py-24">
+    <section id="about" className="scroll-mt-24 bg-[#eef1f8] px-4 py-16 md:scroll-mt-28 md:px-6 md:py-24">
       <div className="mx-auto w-full max-w-6xl">
         <SectionHeading title="About Me" />
         <motion.div
@@ -11,7 +11,7 @@ function About() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.25 }}
           transition={{ duration: 0.45 }}
-          className="rounded-2xl border border-violet-200 bg-white p-6 text-slate-600 shadow-lg shadow-violet-100/60 md:p-8"
+          className="rounded-2xl border border-violet-200 bg-white p-6 text-slate-900 shadow-lg shadow-violet-100/60 md:p-8"
         >
           <p className="mb-4 leading-relaxed">
             I am a Computer Science Engineering student with a CGPA of 8.7, currently pursuing my degree at Velalar

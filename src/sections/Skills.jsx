@@ -4,7 +4,7 @@ import SectionHeading from "../components/SectionHeading";
 
 function Skills({ categories }) {
   return (
-    <section id="skills" className="bg-white px-4 py-16 md:px-6 md:py-24">
+    <section id="skills" className="scroll-mt-24 bg-white px-4 py-16 md:scroll-mt-28 md:px-6 md:py-24">
       <div className="mx-auto w-full max-w-6xl">
         <SectionHeading title="Skills" subtitle="Tech Stack" />
         <motion.div

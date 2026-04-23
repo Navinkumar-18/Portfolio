@@ -19,7 +19,7 @@ function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-violet-200 bg-white/95 shadow-sm backdrop-blur-lg">
       <nav className="mx-auto flex w-full max-w-6xl items-center justify-between px-4 py-4 md:px-6">
-        <a href="#home" className="text-4xl font-extrabold tracking-tight text-violet-700">
+        <a href="#home" className="text-3xl font-extrabold tracking-tight text-violet-700 md:text-4xl">
           Navin
         </a>
 
@@ -54,7 +54,7 @@ function Navbar() {
                 <a
                   href={`#${label.toLowerCase()}`}
                   onClick={closeMenu}
-                  className="block text-sm font-medium text-slate-700 transition hover:text-violet-700"
+                  className="block text-sm font-medium text-slate-900 transition hover:text-violet-700"
                 >
                   {label}
                 </a>
