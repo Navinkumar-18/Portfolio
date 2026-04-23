@@ -108,8 +108,8 @@ function App() {
       "Class Representative",
       "Executive Member - DataPirates Club",
       "Team Leader - Hackathon conducted by IIT Bombay",
-      "Team leader of My SIH-2025 team",
-      "Team leader of Hacknova conducted by PSG College of Technology",
+      "Team leader of SIH-2025 and selected at college level",
+      "Team Leader of Hacknova held at PSG college of Technology",
       "Solved 50+ LeetCode problems",
     ],
     []
